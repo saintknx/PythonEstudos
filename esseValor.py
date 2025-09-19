@@ -1,0 +1,8 @@
+n = input('Digite um valor: ')
+print('Valor numerico:', n.isnumeric())
+print('Valor alfabetico:',n.isalpha())
+print('Valor alfanumerico:',n.isalnum())
+print('Valor maiusculo:',n.isupper())
+print('Valor minusculo:',n.islower())
+print('Valor capitalizado:',n.istitle())
+print('Valor decimal:', n.isdecimal())
