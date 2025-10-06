@@ -7,4 +7,4 @@ c = float(input('Digite o terceiro segmento: '))
 if a < b + c and b < a + c and c < a + b:
     print('Os segmentos podem formar triângulo')
 else:
-    print('Os segmentos não podem formar triângulo')
+    print('Os segmentos não podem formar triângulo')    
