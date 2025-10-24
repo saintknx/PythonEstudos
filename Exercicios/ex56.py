@@ -2,7 +2,7 @@
 No final do programa, mostre: a média de idade do grupo, qual é o nome do homem mais velho e quantas mulheres têm menos de 20 anos.'''
 hvelho = ''
 totidade = 0
-totmulher21 = 0
+totmulher20 = 0
 hidade = 0
 for c in range(1, 5):
     print('-=-=-{}ª PESSOA-=-=-'.format(c))
