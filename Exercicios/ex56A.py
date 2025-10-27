@@ -20,4 +20,4 @@ for c in range(1, 5):
         totmulher21 += 1
 print('A média de idade entre as 4 pessoas é de {}'.format(totidade / 4))
 print('O homem mais velho é {} com {} anos'.format(hvelho.capitalize(), hidade))
-print('Ao todo, a quantidade de mulheres com menos de 20 anos é {}'.format(totmulher21))
+print('Ao todo, a quantidade de mulheres com menos de 20 anos é {}'.format(totmulher20))
