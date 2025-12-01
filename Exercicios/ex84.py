@@ -14,7 +14,7 @@ while True:
     dados.append(pessoas[:]) # Adiciona uma cópia da lista pessoas na lista dados
     tot_pessoas += 1
     if len(dados) == 1: # Se for a primeira pessoa cadastrada, define o maior e menor peso como o peso dessa pessoa
-        maior_peso = menor_peso = dados[0]
+        maior_peso = menor_peso = dados[0] # Armazena a primeira pessoa como maior e menor peso
     pessoas.clear() # Limpa a lista pessoas para a próxima iteração
     while continuar not in 'SN':
         continuar = str(input('Quer continuar? [S/N] ')).upper()[0]
